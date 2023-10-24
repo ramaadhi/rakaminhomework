@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Firefox 118.0,,,2023-10-24 13:22:02,2023-10-24 13:24:16,2m - 13.870s,PASSED
+,,,,,,,
+Test Cases/RunFeatureFile,Firefox 118.0,,,2023-10-24 13:22:03,2023-10-24 13:24:16,2m - 13.460s,PASSED
+"runFeatureFolder(""Include/features"")",Firefox 118.0,,,2023-10-24 13:22:03,2023-10-24 13:24:16,2m - 12.801s,PASSED

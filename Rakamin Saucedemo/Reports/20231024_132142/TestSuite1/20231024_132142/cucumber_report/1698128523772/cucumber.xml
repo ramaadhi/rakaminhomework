@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="131.771886">
+<testcase classname="Add to Cart" name="User can view product added to the cart" time="16.65903">
+<system-out><![CDATA[Given User is on Homepage...................................................passed
+When User click add to cart.................................................passed
+And User click cart.........................................................passed
+Then User can view the items added to the cart..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checkout" name="User can checkout several items" time="17.531765">
+<system-out><![CDATA[Given User is on Homepage...................................................passed
+When User click add to cart item 1..........................................passed
+And User click add to cart item 2...........................................passed
+And User click cart button..................................................passed
+And User click checkout button..............................................passed
+And User input first name...................................................passed
+And User input last name....................................................passed
+And User input postal code..................................................passed
+And User click continue.....................................................passed
+And User click finish.......................................................passed
+Then User can view thank you message........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Success login" time="12.093402">
+<system-out><![CDATA[Given User is on Swag Labs login page.......................................passed
+When User input username....................................................passed
+And User input password.....................................................passed
+And User click login button.................................................passed
+Then User navigated to Homepage.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Failed login" time="72.862194">
+<system-out><![CDATA[Given User is on Swag Labs login page.......................................passed
+When User input username....................................................passed
+And User input invalid password.............................................passed
+And User click login button.................................................passed
+Then User get error message.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Details" name="User can view product details" time="12.625495">
+<system-out><![CDATA[Given User is on Homepage...................................................passed
+When User click a product...................................................passed
+Then User can view product details..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="133.87" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="133.87" skipped="0" timestamp="2023-10-24 13:22:02" hostname="ramad - LAPTOP-RDO5B7UU" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ramad\\Katalon Studio\\Rakamin Saucedemo\\Reports\\20231024_132142\\TestSuite1\\20231024_132142"/>
+         <property name="logFiles" value="C:\\Users\\ramad\\Katalon Studio\\Rakamin Saucedemo\\Reports\\20231024_132142\\TestSuite1\\20231024_132142\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ramad - LAPTOP-RDO5B7UU"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 118.0"/>
+         <property name="hostAddress" value="192.168.176.52"/>
+         <property name="sessionId" value="82b08cb9-f906-4d0f-b588-dc852ee3ee93"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RunFeatureFile" time="133.46" classname="Test Cases/RunFeatureFile" status="PASSED">
+         <system-out><![CDATA[2023-10-24 13:22:03 - [TEST_CASE][PASSED] - Test Cases/RunFeatureFile: Test Cases/RunFeatureFile
+
+2023-10-24 13:22:03 - [TEST_STEP][PASSED] - runFeatureFolder("Include/features"): All feature files in 'Include/features' were passed
+
+2023-10-24 13:22:03 - [MESSAGE][INFO] - Starting run keyword runFeatureFolder: 'Include/features' and extract report to folder: 'C:\Users\ramad\Katalon Studio\Rakamin Saucedemo\Reports\20231024_132142\TestSuite1\20231024_132142/cucumber_report/1698128523772'...
+
+2023-10-24 13:22:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-24 13:22:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-24 13:22:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-24 13:22:13 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-24 13:22:15 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-10-24 13:22:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-10-24 13:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-10-24 13:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-24 13:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_1' is clicked on
+
+2023-10-24 13:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/div_1' is clicked on
+
+2023-10-24 13:22:19 - [MESSAGE][PASSED] - Text '1' is present on page 
+
+2023-10-24 13:22:21 - [MESSAGE][PASSED] - Browser is closed
+
+2023-10-24 13:22:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-24 13:22:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-24 13:22:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-24 13:22:26 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-24 13:22:29 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-10-24 13:22:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-10-24 13:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-10-24 13:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-24 13:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart_1' is clicked on
+
+2023-10-24 13:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_2' is clicked on
+
+2023-10-24 13:22:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Checkout' is clicked on
+
+2023-10-24 13:22:33 - [MESSAGE][PASSED] - Text 'Steve' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+2023-10-24 13:22:34 - [MESSAGE][PASSED] - Text 'Gates' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+2023-10-24 13:22:35 - [MESSAGE][PASSED] - Text '199999' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+2023-10-24 13:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Cancel_continue' is clicked on
+
+2023-10-24 13:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Finish' is clicked on
+
+2023-10-24 13:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/h2_Thank you for your order' is clicked on
+
+2023-10-24 13:22:37 - [MESSAGE][PASSED] - Text 'Thank you for your order!' is present on page 
+
+2023-10-24 13:22:38 - [MESSAGE][PASSED] - Browser is closed
+
+2023-10-24 13:22:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-24 13:22:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-24 13:22:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-24 13:22:44 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-24 13:22:47 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-10-24 13:22:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-10-24 13:22:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-10-24 13:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/div_Swag Labs' is clicked on
+
+2023-10-24 13:22:49 - [MESSAGE][PASSED] - Text 'Swag Labs' is present on page 
+
+2023-10-24 13:22:50 - [MESSAGE][PASSED] - Browser is closed
+
+2023-10-24 13:22:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-24 13:22:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-24 13:22:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-24 13:22:56 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-24 13:22:58 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-10-24 13:22:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password (1)'
+
+2023-10-24 13:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-10-24 13:23:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909' is clicked on
+
+2023-10-24 13:24:00 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+2023-10-24 13:24:03 - [MESSAGE][PASSED] - Browser is closed
+
+2023-10-24 13:24:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2023-10-24 13:24:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-24 13:24:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-24 13:24:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-24 13:24:12 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-10-24 13:24:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-10-24 13:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-10-24 13:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/div_Sauce Labs Backpack' is clicked on
+
+2023-10-24 13:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/div_carry.allTheThings() with the sleek, st_6ae692' is clicked on
+
+2023-10-24 13:24:15 - [MESSAGE][PASSED] - Text 'carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.' is present on page 
+
+2023-10-24 13:24:16 - [MESSAGE][PASSED] - Browser is closed
+
+2023-10-24 13:24:16 - [MESSAGE][PASSED] - All feature files in 'Include/features' were passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-24 13:22:02 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/RunFeatureFile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

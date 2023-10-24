@@ -1,0 +1,432 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User can view product added to the cart",
+        "description": "",
+        "id": "add-to-cart;user-can-view-product-added-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12364770700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "ProductDetailsStep.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1045875900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click add to cart",
+            "match": {
+              "location": "AddToCartStep.clickAddToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 617990200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click cart",
+            "match": {
+              "location": "AddToCartStep.clickCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2611959500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User can view the items added to the cart",
+            "match": {
+              "location": "AddToCartStep.verifyItems()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add to Cart",
+    "description": "",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "C:/Users/ramad/Katalon Studio/Rakamin Saucedemo/Include/features/AddToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User can checkout several items",
+        "description": "",
+        "id": "checkout;user-can-checkout-several-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9194450400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "ProductDetailsStep.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1008187400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click add to cart item 1",
+            "match": {
+              "location": "Checkout.clickAddToCartItem1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 623357600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click add to cart item 2",
+            "match": {
+              "location": "Checkout.clickAddToCartItem2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597238300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click cart button",
+            "match": {
+              "location": "Checkout.clickCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581799000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click checkout button",
+            "match": {
+              "location": "Checkout.clickCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 671570900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User input first name",
+            "match": {
+              "location": "Checkout.enterFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765470700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input last name",
+            "match": {
+              "location": "Checkout.enterLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 755151800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User input postal code",
+            "match": {
+              "location": "Checkout.enterZipPostalCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 692455600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click continue",
+            "match": {
+              "location": "Checkout.clickContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 564500100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click finish",
+            "match": {
+              "location": "Checkout.clickFinish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2071300000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can view thank you message",
+            "match": {
+              "location": "Checkout.verifyThankYouMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checkout",
+    "description": "",
+    "id": "checkout",
+    "keyword": "Feature",
+    "uri": "C:/Users/ramad/Katalon Studio/Rakamin Saucedemo/Include/features/Checkout.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Success login",
+        "description": "",
+        "id": "login;success-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6187195200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Swag Labs login page",
+            "match": {
+              "location": "LoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2061449600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User input username",
+            "match": {
+              "location": "LoginSteps.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503956600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User input password",
+            "match": {
+              "location": "LoginSteps.enterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721966000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click login button",
+            "match": {
+              "location": "LoginSteps.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2615441400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigated to Homepage",
+            "match": {
+              "location": "LoginSteps.verifyHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Failed login",
+        "description": "",
+        "id": "login;failed-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5541251300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Swag Labs login page",
+            "match": {
+              "location": "LoginSteps.navigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2242508300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User input username",
+            "match": {
+              "location": "LoginSteps.enterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 557420500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User input invalid password",
+            "match": {
+              "location": "LoginSteps.enterInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 743483100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click login button",
+            "match": {
+              "location": "LoginSteps.clickLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63774986000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User get error message",
+            "match": {
+              "location": "LoginSteps.verifyErrorLoginMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/ramad/Katalon Studio/Rakamin Saucedemo/Include/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User can view product details",
+        "description": "",
+        "id": "product-details;user-can-view-product-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9758994500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "ProductDetailsStep.navigateToHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 933777600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click a product",
+            "match": {
+              "location": "ProductDetailsStep.navigateToProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1931022000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User can view product details",
+            "match": {
+              "location": "ProductDetailsStep.verifyProductDetails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Product Details",
+    "description": "",
+    "id": "product-details",
+    "keyword": "Feature",
+    "uri": "C:/Users/ramad/Katalon Studio/Rakamin Saucedemo/Include/features/ProductDetails.feature",
+    "tags": []
+  }
+]
